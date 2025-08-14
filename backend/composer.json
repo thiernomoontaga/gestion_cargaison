@@ -1,0 +1,17 @@
+{
+    "name": "projet/cargaison",
+    "autoload": {
+        "psr-4": {
+            "Projet\\Cargaison\\": "src/"
+          
+        }
+    },
+    "authors": [
+        {
+            "name": "thierno"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.6"
+    }
+}

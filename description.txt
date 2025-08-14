@@ -1,0 +1,50 @@
+/projet-cargaison
+│
+├── backend/                     # Partie PHP
+│   ├── public/                   # Fichiers accessibles publiquement
+│   │   ├── index.php             # Point d’entrée unique pour le routage
+│   │   ├── assets/               # Images, JS compilé, CSS
+│   │
+│   ├── routes/                   # Routes PHP
+│   │   ├── cargaisons.php
+│   │   ├── colis.php
+│   │   ├── clients.php
+│   │
+│   ├── controllers/              # Contrôleurs
+│   │   ├── CargaisonController.php
+│   │   ├── ColisController.php
+│   │   ├── ClientController.php
+│   │
+│   ├── views/                    # Pages HTML intégrées avec Tailwind
+│   │   ├── cargaisons/
+│   │   │   ├── index.php
+│   │   │   ├── details.php
+│   │   ├── colis/
+│   │   │   ├── index.php
+│   │   │   ├── suivi.php
+│   │
+│   ├── core/                     # Classes utilitaires PHP
+│   │   ├── Router.php
+│   │   ├── HttpClient.php         # Pour requêtes vers JSON Server
+│
+├── frontend/                     # Logique TypeScript + Tailwind
+│   ├── src/
+│   │   ├── models/               # Classes / interfaces TS (Colis, Cargaison, Client...)
+│   │   ├── services/             # Appels API JSON Server
+│   │   ├── controllers/          # Logique métier
+│   │   ├── utils/                 # Fonctions utilitaires
+│   │   ├── main.ts               # Point d’entrée TS
+│   │
+│   ├── dist/                     # Code compilé (vers backend/public/assets/js)
+│   ├── tailwind.config.js
+│   ├── package.json
+│   ├── tsconfig.json
+│
+├── json-server/                  # Persistance des données
+│   ├── db.json                   # Base simulée
+│
+├── .gitignore
+├── README.md
+
+
+
