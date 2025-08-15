@@ -2,7 +2,10 @@
     "name": "projet/cargaison",
     "autoload": {
         "psr-4": {
-            "Projet\\Cargaison\\": "src/"
+            "Projet\\Cargaison\\": "src/",
+            "App\\Abstract\\":"app/abstract/",
+            "App\\Core\\":"app/core/",
+            "Src\\Controller\\":"src/controller/"
           
         }
     },
