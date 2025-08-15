@@ -5,8 +5,7 @@ abstract class AbstractController {
   protected $layout = 'base';
 
   abstract public function index();
-  abstract public function store();
-  abstract public function create();
+ 
 
   public function renderHtml(string $view ): void {
     ob_start();

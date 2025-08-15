@@ -11,8 +11,7 @@ class ClientController extends AbstractController{
   public function index(){
     $this->renderHtml('Client/HomePage');
   }
-  public function store(){}
-  public function create(){}
+  
 }
 
 

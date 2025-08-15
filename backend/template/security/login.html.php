@@ -2,7 +2,7 @@
          <div class="text-[#328E6E] text-5xl flex flex-row justify-center items-center font-bold mt-60">
           connexion Gerant
          </div>
-      <form action="" method="post" class="w-full h-[300px] mt-5 flex flex-col justify-center items-center">
+      <form action="\dashbord" method="post" class="w-full h-[300px] mt-5 flex flex-col justify-center items-center">
                 <div class="p-5 h-[20px] bg-[#F4F8F5] w-[600px] rounded-xl mt-10 flex flex-row items-center">
 
           <i class="fa-solid fa-envelope" style="color: #9a9a9a;"></i>

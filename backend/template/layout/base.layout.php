@@ -12,21 +12,21 @@
   <div class="flex flex-row h-screen w-full bg-[#E1EEBC]">
     <div class="flex flex-col bg-[#FFFFFF] h-full w-[18%] rounded-r-[100px] shadow-[-6px_-6px_10px_-2px_rgba(50,142,110,0.4),-6px_0_10px_-2px_rgba(50,142,110,0.4),-6px_6px_10px_-2px_rgba(50,142,110,0.4)] border-r-5  border-b-2 border-[#328E6E]">
       <div class="h-[100px] w-full flex items-center justify-center  mt-8">
-        <img src="/images/logogram.png" alt="" srcset="">
+        <img src="../asset/images/logogram.png" alt="" srcset="">
       </div>
       <div class="text-2xl text-center text-[#90C67C] font-bold">
         Gp du monde 
       </div>
       <div class="h-full w-full  p-10">
-        <a href="" class="h-[50px] w-full  flex flex-row items-center gap-4 rounded-2xl mt-5 hover:bg-[#ADDA9C] text-[#90C67C] text-2xl font-bold hover:text-[#FFFFFF]">
+        <a href="/dashbord" class="h-[50px] w-full  flex flex-row items-center gap-4 rounded-2xl mt-5 hover:bg-[#ADDA9C] text-[#90C67C] text-2xl font-bold hover:text-[#FFFFFF]">
           <i class="fa-solid fa-house text-3xl ml-5 " style="color: #328e6e;"></i>
           <span>Dashbord</span>
         </a>
-        <a href="" class="h-[50px] w-full  flex flex-row items-center gap-6 rounded-2xl mt-5 hover:bg-[#ADDA9C] text-[#90C67C] text-2xl font-bold hover:text-[#FFFFFF]">
+        <a href="/cargaison" class="h-[50px] w-full  flex flex-row items-center gap-6 rounded-2xl mt-5 hover:bg-[#ADDA9C] text-[#90C67C] text-2xl font-bold hover:text-[#FFFFFF]">
           <i class="fa-solid fa-truck ml-5" style="color: #328e6e;"></i>
           <span>Cargaison</span>
         </a>
-        <a href="" class="h-[50px] w-full  flex flex-row items-center gap-6 rounded-2xl mt-5 hover:bg-[#ADDA9C] text-[#90C67C] text-2xl font-bold hover:text-[#FFFFFF]">
+        <a href="/colis" class="h-[50px] w-full  flex flex-row items-center gap-6 rounded-2xl mt-5 hover:bg-[#ADDA9C] text-[#90C67C] text-2xl font-bold hover:text-[#FFFFFF]">
           <i class="fa-solid fa-layer-group ml-5" style="color: #328e6e;"></i>
           <span>Colis</span>
         </a>

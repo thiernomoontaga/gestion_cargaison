@@ -18,7 +18,7 @@
       <input type="text" class="h-full w-[90%] ml-5 outline-none border-none" placeholder="mettez le code de votre colis">
       
     </div>
-    <a href="/?page=login"  class="h-[60px] w-[15%] bg-[#328E6E] mt-7 flex justify-center items-center rounded-2xl text-2xl font-bold  text-[#FFFFFF]">
+    <a href="/login"  class="h-[60px] w-[15%] bg-[#328E6E] mt-7 flex justify-center items-center rounded-2xl text-2xl font-bold  text-[#FFFFFF]">
         Se connecter
     </a>
 

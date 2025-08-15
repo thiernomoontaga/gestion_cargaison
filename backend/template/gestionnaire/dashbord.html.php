@@ -43,6 +43,6 @@
           Livraison en cours
           </div>
           <div class="h-[500px] w-full mt-3 rounded-2xl">
-          <img src="./images/map.jpg" alt="" srcset="" class="object-cover h-full w-full rounded-2xl">
+          <img src="../asset/images/map.jpg" alt="" srcset="" class="object-cover h-full w-full rounded-2xl">
           </div>
 </div>
