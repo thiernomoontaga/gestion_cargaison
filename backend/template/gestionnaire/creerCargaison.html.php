@@ -30,15 +30,23 @@
           </div>
           <div class="w-[48%] border-1 border-[#328E6E] h-[330px] mt-5 rounded-xl flex flex-col p-5">
             <div class="flex flex-col mt-3">
-              <label for="" class="text-2xl text-[#328E6E]">Numero cargaison</label>
-              <input type="text" class="border-[#DBDEE5] border-1 w-[630px] rounded-xl mt-2 h-10 p-2 outline-none" placeholder="mettez le numero de cargaison ">
+              <label for="" class="text-2xl text-[#328E6E]">Lieu de depart ou adresse</label>
+              <input type="text" class="border-[#DBDEE5] border-1 w-[630px] rounded-xl mt-2 h-10 p-2 outline-none" placeholder="mettez les coordonnees ou adresse">
             </div>
             <div class="flex flex-col mt-3">
-              <label for="" class="text-2xl text-[#328E6E]">Poids cargaison maximum</label>
-              <input type="text" class="border-[#DBDEE5] border-1 w-[630px] rounded-xl mt-2 h-10 p-2 outline-none" placeholder="mettez le poids maximum du cargaison ">
+              <label for="" class="text-2xl text-[#328E6E]">lieu d'arriver ou adresse</label>
+              <input type="text" class="border-[#DBDEE5] border-1 w-[630px] rounded-xl mt-2 h-10 p-2 outline-none" placeholder="mettez les coordonnees ou adresse">
             </div>
-            <div>
-              
+            <div class="flex flex-row mt-5 justify-between">
+              <div class="flex flex-col">
+                <label for="" class="text-2xl text-[#328E6E]">date depart</label>
+                <input type="date" class="mt-2 border outline-none p-2  border-[#637087] rounded-xl">
+              </div>
+              <div class="flex flex-col ">
+                <label for="" class="text-2xl text-[#328E6E]">date d'arriver</label>
+                <input type="date" class="mt-2 border outline-none p-2  border-[#637087] rounded-xl">
+
+              </div>
             </div>
            
 
@@ -47,7 +55,7 @@
         </div>
         <div class="w-[200px] h-[50px] bg-[#328E6E] rounded-2xl flex justify-center items-center text-2xl text-[#FFFFFF] cursor-pointer font-bold mt-5">+ Ajouter colis </div>
      </div>
-     <button type="submit" class="bg-[#328E6E] p-2 w-full mt-10 cursor-pointer font-bold rounded-2xl text-2xl text-[#fff]">Creer cargaison</button>
+     <button type="submit" class="bg-[#328E6E] p-2 w-[1450px] mt-10 cursor-pointer font-bold rounded-2xl text-2xl text-[#fff] ">Creer cargaison</button>
   </form>
 
 

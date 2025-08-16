@@ -1,0 +1,144 @@
+{
+  "gestionnaires": [
+    {
+      "id": 1,
+      "nom": "Segnane",
+      "prenom": "Thierno",
+      "email": "thierno.segnane@example.com",
+      "motDePasse": "password_123"
+    },
+    {
+      "id": 2,
+      "nom": "Janha",
+      "prenom": "Nazir",
+      "email": "nazir.janha@example.com",
+      "motDePasse": "password_456"
+    },
+    {
+      "id": 3,
+      "nom": "Fall",
+      "prenom": "Moussa",
+      "email": "moussa.fall@example.com",
+      "motDePasse": "password_789"
+    }
+  ],
+  "clients": [
+    {
+      "id": 1,
+      "nom": "Aidara",
+      "prenom": "Ibrahima",
+      "email": "ibra.aidara@example.com",
+      "telephone": "+221778889900"
+    },
+    {
+      "id": 2,
+      "nom": "Diassy",
+      "prenom": "Bakary",
+      "email": "bakary.diassy@example.com",
+      "telephone": "+221771122334"
+    },
+    {
+      "id": 3,
+      "nom": "Ndiaye",
+      "prenom": "Aminata",
+      "email": "aminata.ndiaye@example.com",
+      "telephone": "+221775566778"
+    },
+    {
+      "id": 4,
+      "nom": "Sow",
+      "prenom": "Mamadou",
+      "email": "mamadou.sow@example.com",
+      "telephone": "+221770011223"
+    }
+  ],
+  "cargaisons": [
+    {
+      "id": 1,
+      "code": "CAR-001",
+      "type": "maritime",
+      "depart": "Dakar",
+      "arrivee": "Marseille",
+      "poidsMax": 10000,
+      "statut": "en cours"
+    },
+    {
+      "id": 2,
+      "code": "CAR-002",
+      "type": "aérien",
+      "depart": "Paris",
+      "arrivee": "New York",
+      "poidsMax": 5000,
+      "statut": "terminée"
+    },
+    {
+      "id": 3,
+      "code": "CAR-003",
+      "type": "routier",
+      "depart": "Bamako",
+      "arrivee": "Dakar",
+      "poidsMax": 2000,
+      "statut": "en attente"
+    },
+    {
+      "id": 4,
+      "code": "CAR-004",
+      "type": "maritime",
+      "depart": "Abidjan",
+      "arrivee": "Casablanca",
+      "poidsMax": 8000,
+      "statut": "en cours"
+    }
+  ],
+  "colis": [
+    {
+      "id": 1,
+      "description": "Matériel électronique",
+      "poids": 250,
+      "clientId": 1,
+      "cargaisonId": 1,
+      "statut": "en transit"
+    },
+    {
+      "id": 2,
+      "description": "Vêtements",
+      "poids": 50,
+      "clientId": 2,
+      "cargaisonId": 1,
+      "statut": "livré"
+    },
+    {
+      "id": 3,
+      "description": "Produits pharmaceutiques",
+      "poids": 100,
+      "clientId": 1,
+      "cargaisonId": 2,
+      "statut": "en transit"
+    },
+    {
+      "id": 4,
+      "description": "Pièces de rechange auto",
+      "poids": 500,
+      "clientId": 3,
+      "cargaisonId": 3,
+      "statut": "en attente"
+    },
+    {
+      "id": 5,
+      "description": "Fruits et légumes",
+      "poids": 300,
+      "clientId": 4,
+      "cargaisonId": 4,
+      "statut": "en cours"
+    },
+    {
+      "id": 6,
+      "description": "Produits chimiques",
+      "poids": 700,
+      "clientId": 2,
+      "cargaisonId": 4,
+      "statut": "en cours"
+    }
+  ]
+}
+
